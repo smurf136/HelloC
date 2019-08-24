@@ -76,7 +76,7 @@ class Map1 extends Phaser.Scene {
             player2.setVelocityY(-330)
         }
         if(keyW.isDown && player1.body.touching.down){
-            player1.setVelocityY(-330)
+            player1.setVelocityY(-330);
         }
     }
 

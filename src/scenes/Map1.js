@@ -25,7 +25,8 @@ class Map1 extends Phaser.Scene {
 
         platforms = this.physics.add.staticGroup()
 
-        platforms.create(630, 680, 'ground').setScale(2).refreshBody()
+        platforms.create(300, 680, 'ground').setSize(4000, 200, true).setScale(2)
+        platforms.create(700, 680, 'ground').setSize(4000, 200, true).setScale(2)
         platforms.create(850, 400, 'platform')
         platforms.create(600, 500, 'platform');
         platforms.create(200, 220, 'platform');
